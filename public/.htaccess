@@ -20,6 +20,10 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 
+    # Remove /api/ from the request if it's followed by another /api/
+    RewriteCond %{REQUEST_URI} ^/api/api(/.*)$
+    RewriteRule ^api/api/(.*)$ /api/$1 [L,R=301]
+
     # Send Requests To API Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
