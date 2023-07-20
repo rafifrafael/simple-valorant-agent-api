@@ -20,11 +20,13 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 
-    # Redirect /api/api/ to /api/ to avoid duplicate
-    RewriteRule ^api/api/(.*)$ /api/$1 [L,R=301]
-
     # Send Requests To API Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
+
+    # Redirect /api/api/ to /api/ to avoid duplicate
+    RewriteCond %{REQUEST_URI} ^/api/api/(.*)
+    RewriteRule ^api/api/(.*)$ /api/$1 [L,R=301]
+
     RewriteRule ^api(/(.*))?$ /api/index.php [L]
 </IfModule>
