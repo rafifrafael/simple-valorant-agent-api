@@ -75,7 +75,7 @@
             </div>
         </div>
         <div class="alert alert-success" role="alert">
-            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/agents/{name}</b>&nbsp&nbsp retrieve
+            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/agents/name/{name}</b>&nbsp&nbsp retrieve
             agents by name.
             <a class="btn btn--success" data-bs-toggle="collapse" href="#getbyname">
                 <i class="fa-solid fa-circle-chevron-down"></i>
@@ -105,7 +105,7 @@
             </div>
         </div>
         <div class="alert alert-success" role="alert">
-            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/agents/{role}</b>&nbsp&nbsp retrieve
+            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/agents/role/{role}</b>&nbsp&nbsp retrieve
             agents by role.
             <a class="btn btn--success" data-bs-toggle="collapse" href="#getbyrole">
                 <i class="fa-solid fa-circle-chevron-down"></i>
