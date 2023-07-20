@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Api\BaseController as BaseController;
 use App\Models\Agent;
+use App\Http\Controllers\Api\BaseController as BaseController;
 use Validator;
 use App\Http\Resources\AgentResource;
 use Illuminate\Http\JsonResponse;
