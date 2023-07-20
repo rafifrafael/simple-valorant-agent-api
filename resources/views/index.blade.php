@@ -23,7 +23,7 @@
         <!-- Content here -->
         <h2>Simple Valorant Agent API</h2>
         <br>
-        I made this project to learn and understand the use of APIs.
+        Made for educational purposes.
         <br>
         <br>
         <h3>How To Use</h3>
@@ -75,7 +75,8 @@
             </div>
         </div>
         <div class="alert alert-success" role="alert">
-            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/agents/name/{name}</b>&nbsp&nbsp retrieve
+            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/agents/name/{name}</b>&nbsp&nbsp
+            retrieve
             agents by name.
             <a class="btn btn--success" data-bs-toggle="collapse" href="#getbyname">
                 <i class="fa-solid fa-circle-chevron-down"></i>
@@ -105,7 +106,8 @@
             </div>
         </div>
         <div class="alert alert-success" role="alert">
-            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/agents/role/{role}</b>&nbsp&nbsp retrieve
+            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/agents/role/{role}</b>&nbsp&nbsp
+            retrieve
             agents by role.
             <a class="btn btn--success" data-bs-toggle="collapse" href="#getbyrole">
                 <i class="fa-solid fa-circle-chevron-down"></i>
@@ -197,6 +199,44 @@
         </div>
         *login required.
     </div>
+    <footer class="bg-light text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!"
+                    role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!"
+                    role="button"><i class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                    role="button"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                    role="button"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!"
+                    role="button"><i class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!"
+                    role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            ronin
+        </div>
+        <!-- Copyright -->
+    </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
