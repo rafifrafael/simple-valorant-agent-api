@@ -1,10 +1,4 @@
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/api
-RewriteCond %{REQUEST_URI} (.+)/$
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-# RewriteRule ^index$ index.php [nc]
-# RewriteRule ^edit$ config/edit.php [nc]
-# RewriteRule ^gallery$ config/editGallery.php [nc]
-# RewriteRule ^timeline$ config/editT.php [nc]
-RewriteRule ^api(/.*)?$ /api/index.php [L]
+RewriteRule ^api/agents$ /api/index.php [L]
