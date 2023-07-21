@@ -2,8 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\AgentController;
-use App\Http\Controllers\API\RegisterController;
+use App\Http\Controllers\AgentController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
