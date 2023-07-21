@@ -5,12 +5,15 @@
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
     "rewrites": [
-        { "source": "/(.*)", "destination": "/api/$1" }
+        {
+          "source": "/api/(.*)",
+          "destination": "/api/$1"
+        },
+        {
+          "source": "/(.*)",
+          "destination": "/index.php"
+        }
       ],
-    "routes": [
-        { "src": "/api/(.*)", "dest": "/api/$1" },
-        { "src": "/(.*)", "dest": "/index.php" }
-    ],
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
@@ -26,6 +29,5 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    },
-        "cleanUrls": true  
+    }
 }
