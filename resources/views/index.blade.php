@@ -242,6 +242,7 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/237c69a9d4.js" crossorigin="anonymous"></script>
+    <script defer src="/_vercel/insights/script.js"></script>
 </body>
 
 </html>
