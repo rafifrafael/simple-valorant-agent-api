@@ -26,7 +26,7 @@
         Made for educational purposes.
         <br>
         <br>
-        <div class="alert alert-success" role="alert">
+        <div class="alert alert-danger" role="alert">
             there is a double api to retrieve data in the url, will be fixed soon.
         </div>
         <h3>How To Use</h3>
