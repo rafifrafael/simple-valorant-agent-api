@@ -27,11 +27,11 @@
         <br>
         <br>
         <div class="alert alert-danger" role="alert">
-            there is a double api to retrieve data in the url, will be fixed soon.
+            the data is not complete, it will be completed later because this project is only for educational purposes.
         </div>
         <h3>How To Use</h3>
         <div class="alert alert-success" role="alert">
-            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/api/agents</b>&nbsp&nbsp retrieve all
+            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/agents</b>&nbsp&nbsp retrieve all
             agents.
             <a class="btn btn--success" data-bs-toggle="collapse" href="#getall">
                 <i class="fa-solid fa-circle-chevron-down"></i>
@@ -78,7 +78,7 @@
             </div>
         </div>
         <div class="alert alert-success" role="alert">
-            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/api/agents/name/{name}</b>&nbsp&nbsp
+            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/agents/name/{name}</b>&nbsp&nbsp
             retrieve
             agents by name.
             <a class="btn btn--success" data-bs-toggle="collapse" href="#getbyname">
@@ -109,7 +109,7 @@
             </div>
         </div>
         <div class="alert alert-success" role="alert">
-            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/api/agents/role/{role}</b>&nbsp&nbsp
+            <h4><span class="badge bg-success">GET</span></h4> <b>&nbsp&nbsp api/agents/role/{role}</b>&nbsp&nbsp
             retrieve
             agents by role.
             <a class="btn btn--success" data-bs-toggle="collapse" href="#getbyrole">
@@ -144,7 +144,7 @@
 
         <h3></h3>
         <div class="alert alert-primary" role="alert">
-            <h4><span class="badge bg-primary">POST</span></h4> <b>&nbsp&nbsp api/api/agents/add</b>&nbsp&nbsp add new
+            <h4><span class="badge bg-primary">POST</span></h4> <b>&nbsp&nbsp api/agents/add</b>&nbsp&nbsp add new
             agent.*
             <a class="btn btn--success" data-bs-toggle="collapse" href="#add">
                 <i class="fa-solid fa-circle-chevron-down"></i>
@@ -172,7 +172,7 @@
             </div>
         </div>
         <div class="alert alert-warning" role="alert">
-            <h4><span class="badge bg-warning">POST</span></h4> <b>&nbsp&nbsp api/api/agents/update/{id}</b>&nbsp&nbsp
+            <h4><span class="badge bg-warning">POST</span></h4> <b>&nbsp&nbsp api/agents/update/{id}</b>&nbsp&nbsp
             update selected agent.*
             <a class="btn btn--success" data-bs-toggle="collapse" href="#update">
                 <i class="fa-solid fa-circle-chevron-down"></i>
@@ -184,7 +184,7 @@
             </div>
         </div>
         <div class="alert alert-danger" role="alert">
-            <h4><span class="badge bg-danger">DELETE</span></h4> <b>&nbsp&nbsp api/api/agents/delete/{id}</b>&nbsp&nbsp
+            <h4><span class="badge bg-danger">DELETE</span></h4> <b>&nbsp&nbsp api/agents/delete/{id}</b>&nbsp&nbsp
             delete selected agent.*
             <a class="btn btn--danger" data-bs-toggle="collapse" href="#delete" role="button" aria-expanded="false"
                 aria-controls="collapseExample">
