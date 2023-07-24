@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Http\Request;
 use App\Http\Controllers\Api\AgentController;
 use App\Http\Controllers\API\RegisterController;
 use Illuminate\Support\Facades\Route;
