@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::controller(AgentController::class)->group(function(){
+    Route::resource('agents', AgentController::class);
+    Route::get('agents/role/{role}', [AgentController::class, 'getByRole']);
+    Route::get('agents/name/{name}', [AgentController::class, 'getByName']);
+});
