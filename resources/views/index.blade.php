@@ -202,7 +202,7 @@
         </div>
         *login required.
     </div>
-    <footer class="bg-light text-center text-white fixed-bottom">
+    <footer class="bg-light text-center text-white">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
             <!-- Section: Social media -->
